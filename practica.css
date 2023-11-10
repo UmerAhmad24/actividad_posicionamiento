@@ -1,0 +1,80 @@
+body{
+    /*para poner margenes*/
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    /*Para que el fonde de pantalla se la imagen que indicamos*/
+    background-image: url(fotos/fondo.jpeg);
+    /*Para que la imagen no se repita y solo aya una*/
+    background-repeat: no-repeat;
+    /*Pone que la imagen ocupe el 100 por 100 de la pantalla*/
+    background-size: 100% 100%;
+    
+}
+
+.header{
+    /*el fondo el header ser negro con la letra 
+    en blanco, con una posicion fija, con una altura 
+    de 100% y alineado en el centro*/
+    background-color: black ;
+    color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    }
+
+.nav{
+    /*La altura es de 30px con el fondo rojo con la letra 
+    en blanco, con una maxima altura de 60px, con la posicion sticky*/
+    height: 30px;
+    background-color: red;
+    margin-top: 60px;
+    color: white;
+    position: sticky;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+    
+.nav a{
+    /*tamaño de letra 25 color blanco y sin decoracion de texto*/
+    font-size: 25px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#main{
+    margin: 20px;
+}
+
+
+section{
+    /*TODOS LOS MARGINS SON LOS LIMITES */
+    background-color: #bfb6b9;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    height: 100px;
+}
+footer{
+    /*Texto alineado en el centro con una altura automatica
+     pero con un margen de 60 pixeles con una ampliacion 
+     orixontal total del 100% y el color del fondo es negro
+     y el color de la letra es blanco con una altura de 30 pixeles*/
+    text-align: center;
+    height: auto;
+    margin-top:60px;
+    width:100%;
+    height: 100px;;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
